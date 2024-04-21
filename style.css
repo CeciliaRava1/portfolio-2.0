@@ -69,6 +69,15 @@ h2 {
     margin-bottom: 85px;
 }
 
+div.form-container {
+    max-width: 94%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(208, 205, 245);
+    padding: 20px;
+}
+
 p {
     font-size: 16px;
     line-height: 1.5;
@@ -134,3 +143,60 @@ p {
     border-radius: 5px;
 }
 
+span {
+    font-size: 16px;
+}
+
+div {
+    margin-left: 29px;
+}
+
+form {
+    margin-top: 1px;
+    font-size: 17px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 25%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 10%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+textarea {
+    height: 112px;
+}
+
+#submit {
+    background-color: rgba(81, 81, 211, 0.816);
+    color: white;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#submit:hover {
+    background-color: rgba(107, 107, 213, 0.534);
+}
