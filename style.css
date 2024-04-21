@@ -1,0 +1,136 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(107, 107, 213, 0.534);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgba(109, 109, 210, 0.816);
+}
+
+h1 {
+    background-color: rgba(81, 81, 211, 0.816);
+    padding: 10px;
+    margin: 0;
+    color: rgb(255, 233, 236);
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    margin: 20px 40px 20px 40px;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 94%;
+    margin: 20px auto;
+    padding: 20px;
+    margin-bottom: 33px;
+}
+
+.container_skills {
+    max-width: 94%;
+    margin: 20px auto;
+    padding: 20px;
+    margin-bottom: 85px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-indent: 30px;
+}
+
+.image {
+    float: right;
+    margin: 20px 0 30px 30px;
+    max-width: 14%;
+    height: auto;
+}
+
+.image2 {
+    float: left;
+    margin: 0 30px 30px 0;
+    max-width: 13%;
+    height: auto;
+}
+
+.article {
+    float: left;
+    width: 70%;
+    background-color: #FFF;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #CCC;
+}
+
+.footer {
+    background-color: rgba(81, 81, 211, 0.816);
+    color: #FFF;
+    bottom: 0;
+    width: 100%;
+    font-weight: 300;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer a {
+    margin-right: 10px;
+}
+
+.p_element {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+
+.skill {
+    margin-bottom: 20px;
+    width: 60%;
+    margin-right: 20px;
+
+}
+
+.progress-bar {
+    background-color: rgba(81, 81, 211, 0.816);
+    color: #fff;
+    text-align: right;
+    padding: 3px;
+    border-radius: 5px;
+}
+
